@@ -1,0 +1,7 @@
+create table Contacto
+(
+idContacto int primary key identity (1,1),
+nombre varchar(50),
+correo varchar(50),
+telefono varchar(50)
+)
